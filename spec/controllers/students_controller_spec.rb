@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe ClubsController do
+describe StudentsController do
   describe "#index" do
     it "redirects visitor to the login page" do
       get :index
